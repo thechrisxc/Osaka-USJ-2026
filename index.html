@@ -91,18 +91,17 @@
     </nav>
 
     <!-- Highlights & Itinerary Main Content -->
-    <main class="max-w-5xl mx-auto px-4 md:px-12 py-12 md:py-16">
-        
-        <!-- Highlights -->
+    <main class="max-w-5xl mx-auto px-6 md:px-12 py-16">
         <section class="mb-20">
             <div class="flex items-center gap-4 mb-10">
                 <div class="w-12 h-px bg-kincha"></div>
                 <h2 class="text-2xl text-sumi tracking-widest font-light">行程亮點</h2>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Highlight 1 -->
-                <div class="group relative bg-gofun p-6 md:p-10 rounded-sm border border-haizakura/40 hover:border-haizakura transition-all duration-500 hover:-translate-y-1 shadow-sm">
+                <div class="group relative bg-gofun p-8 md:p-10 rounded-sm border border-haizakura/40 hover:border-haizakura transition-all duration-500 hover:-translate-y-1 shadow-sm">
+                    <div class="absolute top-0 right-0 w-16 h-16 bg-shoji opacity-40"></div>
                     <div class="w-8 h-[1px] bg-sumi mb-6 transition-all duration-300 group-hover:w-16"></div>
                     <h3 class="text-xl text-sumi mb-4 font-semibold tracking-wide">關西樂享周遊券 (3項)</h3>
                     <p class="text-keshizumi text-sm leading-relaxed">
@@ -112,7 +111,8 @@
                 </div>
                 
                 <!-- Highlight 2 -->
-                <div class="group relative bg-gofun p-6 md:p-10 rounded-sm border border-kincha/20 hover:border-kincha/50 transition-all duration-500 hover:-translate-y-1 shadow-sm">
+                <div class="group relative bg-gofun p-8 md:p-10 rounded-sm border border-kincha/20 hover:border-kincha/50 transition-all duration-500 hover:-translate-y-1 shadow-sm">
+                    <div class="absolute top-0 right-0 w-16 h-16 bg-shoji opacity-40"></div>
                     <div class="w-8 h-[1px] bg-sumi mb-6 transition-all duration-300 group-hover:w-16"></div>
                     <h3 class="text-xl text-sumi mb-4 font-semibold tracking-wide">神戶異國風情</h3>
                     <p class="text-keshizumi text-sm leading-relaxed">
@@ -122,7 +122,8 @@
                 </div>
 
                 <!-- Highlight 3 -->
-                <div class="group relative bg-gofun p-6 md:p-10 rounded-sm border border-seiji/20 hover:border-seiji/50 transition-all duration-500 hover:-translate-y-1 shadow-sm">
+                <div class="group relative bg-gofun p-8 md:p-10 rounded-sm border border-seiji/20 hover:border-seiji/50 transition-all duration-500 hover:-translate-y-1 shadow-sm">
+                    <div class="absolute top-0 right-0 w-16 h-16 bg-shoji opacity-40"></div>
                     <div class="w-8 h-[1px] bg-sumi mb-6 transition-all duration-300 group-hover:w-16"></div>
                     <h3 class="text-xl text-sumi mb-4 font-semibold tracking-wide">環球影城全日遊</h3>
                     <p class="text-keshizumi text-sm leading-relaxed">
@@ -140,10 +141,10 @@
                 <h2 class="text-2xl text-sumi tracking-widest font-light">預訂憑證</h2>
             </div>
 
-            <div class="flex flex-col gap-6 md:gap-8 max-w-3xl mx-auto">
+            <div class="flex flex-col gap-8 max-w-3xl mx-auto">
                 <!-- Flight Ticket -->
                 <div class="bg-gofun border border-haizakura/60 rounded-sm flex flex-col relative overflow-hidden shadow-sm">
-                    <div class="bg-haizakura/10 px-5 py-3 md:px-6 md:py-4 border-b border-haizakura/40 flex justify-between items-center">
+                    <div class="bg-haizakura/10 px-6 py-4 border-b border-haizakura/40 flex justify-between items-center">
                         <div class="flex items-center gap-2">
                             <svg class="w-5 h-5 text-sumi" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
                             <span class="tracking-widest font-semibold text-sumi text-sm">航班資訊</span>
@@ -151,41 +152,42 @@
                         <span class="text-xs text-keshizumi border border-sumi/20 px-2 py-1 rounded-sm">4 Passengers</span>
                     </div>
                     
-                    <div class="p-5 md:p-6 flex-grow flex flex-col justify-center gap-8 relative">
+                    <div class="p-6 flex-grow flex flex-col justify-center gap-8 relative">
                         <!-- 去程 -->
-                        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 md:gap-4 relative z-10">
-                            <div class="flex items-center gap-3 md:gap-4">
+                        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 relative z-10">
+                            <div class="flex items-center gap-4">
                                 <div class="bg-sumi text-shironeri text-xs px-2 py-1 tracking-widest rounded-sm shrink-0">去程</div>
                                 <div>
-                                    <div class="font-bold text-sumi text-base md:text-lg"><a href="https://maps.app.goo.gl/xCueL2TnixJTasjX9" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">台北 (TPE)</a> <span class="font-light text-haizakura mx-1">&#x2708;&#xFE0E;</span> <a href="https://maps.app.goo.gl/iVbq3HVHDTXFhobq8" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">大阪 (KIX)</a></div>
-                                    <div class="text-xs text-keshizumi mt-1">10/23 (五) | 第一航廈</div>
+                                    <div class="font-bold text-sumi text-lg"><a href="https://maps.app.goo.gl/xCueL2TnixJTasjX9" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">台北 (TPE)</a> <span class="font-light text-haizakura mx-1">&#xFE0E;✈&#xFE0E;</span> <a href="https://maps.app.goo.gl/iVbq3HVHDTXFhobq8" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">大阪 (KIX)</a></div>
+                                    <div class="text-xs text-keshizumi mt-1">10月23日 (五) | 第一航廈 (T1)</div>
                                 </div>
                             </div>
-                            <div class="text-left md:text-right border-l-2 md:border-l-0 border-haizakura/30 pl-3 md:pl-0">
+                            <div class="text-right border-l-2 md:border-l-0 border-haizakura/30 pl-4 md:pl-0 mt-2 md:mt-0">
                                 <div class="text-sm font-semibold text-sumi">02:30 - 06:05</div>
                                 <div class="text-xs text-keshizumi mt-1">Jetstar GK050 (2h 35m)</div>
                             </div>
                         </div>
                         
+                        <!-- Divider -->
                         <div class="w-full border-t border-dashed border-haizakura/60 relative z-10"></div>
                         
                         <!-- 回程 -->
-                        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 md:gap-4 relative z-10">
-                            <div class="flex items-center gap-3 md:gap-4">
+                        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 relative z-10">
+                            <div class="flex items-center gap-4">
                                 <div class="bg-sumi text-shironeri text-xs px-2 py-1 tracking-widest rounded-sm shrink-0">回程</div>
                                 <div>
-                                    <div class="font-bold text-sumi text-base md:text-lg"><a href="https://maps.app.goo.gl/iVbq3HVHDTXFhobq8" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">大阪 (KIX)</a> <span class="font-light text-haizakura mx-1">&#x2708;&#xFE0E;</span> <a href="https://maps.app.goo.gl/xCueL2TnixJTasjX9" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">台北 (TPE)</a></div>
-                                    <div class="text-xs text-keshizumi mt-1">10/27 (二) | 第一航廈</div>
+                                    <div class="font-bold text-sumi text-lg"><a href="https://maps.app.goo.gl/iVbq3HVHDTXFhobq8" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">大阪 (KIX)</a> <span class="font-light text-haizakura mx-1">&#xFE0E;✈&#xFE0E;</span> <a href="https://maps.app.goo.gl/xCueL2TnixJTasjX9" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">台北 (TPE)</a></div>
+                                    <div class="text-xs text-keshizumi mt-1">10月27日 (二) | 第一航廈 (T1)</div>
                                 </div>
                             </div>
-                            <div class="text-left md:text-right border-l-2 md:border-l-0 border-haizakura/30 pl-3 md:pl-0">
+                            <div class="text-right border-l-2 md:border-l-0 border-haizakura/30 pl-4 md:pl-0 mt-2 md:mt-0">
                                 <div class="text-sm font-semibold text-sumi">23:10 - 01:30<sup class="text-[10px] text-kincha">+1</sup></div>
                                 <div class="text-xs text-keshizumi mt-1">Jetstar GK057 (3h 20m)</div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="bg-shironeri/50 px-5 py-3 md:px-6 md:py-3 border-t border-haizakura/40 text-xs text-keshizumi flex items-center gap-2">
+                    <div class="bg-shironeri/50 px-6 py-3 border-t border-haizakura/40 text-xs text-keshizumi flex items-center gap-2">
                         <svg class="w-4 h-4 text-kincha" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
                         <span class="font-medium text-sumi">托運行李：</span>20公斤 × 3人
                     </div>
@@ -193,7 +195,7 @@
 
                 <!-- USJ Ticket -->
                 <div class="bg-gofun border border-haizakura/60 rounded-sm flex flex-col relative overflow-hidden shadow-sm">
-                    <div class="bg-haizakura/10 px-5 py-3 md:px-6 md:py-4 border-b border-haizakura/40 flex justify-between items-center">
+                    <div class="bg-haizakura/10 px-6 py-4 border-b border-haizakura/40 flex justify-between items-center">
                         <div class="flex items-center gap-2">
                             <svg class="w-5 h-5 text-sumi" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"/></svg>
                             <span class="tracking-widest font-semibold text-sumi text-sm">樂園門票</span>
@@ -201,61 +203,66 @@
                         <span class="text-xs text-keshizumi border border-sumi/20 px-2 py-1 rounded-sm">Adult × 4</span>
                     </div>
                     
-                    <div class="p-5 md:p-6 flex-grow flex flex-col justify-center">
+                    <div class="p-6 flex-grow flex flex-col justify-center">
                         <div class="mb-4">
-                            <h4 class="text-lg md:text-xl font-bold text-sumi mb-2"><a href="https://maps.app.goo.gl/voBHhB2ZJcUXku1T6" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">日本環球影城</a> 1日券</h4>
-                            <p class="text-sm text-keshizumi leading-relaxed">成人 1-Day Studio Pass</p>
+                            <h4 class="text-xl font-bold text-sumi mb-2"><a href="https://maps.app.goo.gl/voBHhB2ZJcUXku1T6" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">日本環球影城</a> 1日券</h4>
+                            <p class="text-sm text-keshizumi leading-relaxed">
+                                成人 1-Day Studio Pass
+                            </p>
                         </div>
+                        
                         <div class="mt-auto">
                             <div class="text-xs text-keshizumi mb-1 tracking-widest">出遊日期</div>
-                            <div class="font-semibold text-sumi text-base md:text-lg border-b border-haizakura pb-2 inline-block">2026-10-26 (一)</div>
+                            <div class="font-semibold text-sumi text-lg border-b border-haizakura pb-2 inline-block">2026-10-26 (一)</div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Detailed Itinerary Timeline -->
         <section>
             <div class="flex items-center gap-4 mb-12">
                 <div class="w-12 h-px bg-kincha"></div>
                 <h2 class="text-2xl text-sumi tracking-widest font-light">每日行程</h2>
             </div>
 
-            <div class="space-y-16 md:space-y-20">
-                
+            <div class="space-y-16">
                 <!-- Day 1 -->
                 <div id="day1" class="relative scroll-mt-24">
                     <div class="absolute hidden md:block left-24 top-14 bottom-0 w-px bg-haizakura/50"></div>
-                    <div class="flex flex-col md:flex-row gap-4 md:gap-12">
+                    <div class="flex flex-col md:flex-row gap-6 md:gap-12">
                         <div class="md:w-24 shrink-0 relative z-10 pt-2">
                             <div class="bg-sumi text-shironeri text-xs px-2 py-1 tracking-widest inline-block mb-2 rounded-sm shadow-sm">第一日</div>
                             <div class="text-2xl font-serif text-sumi">10/23</div>
-                            <div class="text-xs text-keshizumi mt-1 mb-3">週五</div>
+                            <div class="text-xs text-keshizumi mt-1 mb-4">週五</div>
                             <div class="inline-flex items-center gap-1.5 border border-kincha/30 bg-kincha/5 px-2 py-1 rounded-sm shadow-sm">
-                                <svg class="w-3.5 h-3.5 text-kincha" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                                <svg class="w-3 h-3 text-kincha" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
                                 <span class="text-[10px] font-medium text-kincha">17:14 日落</span>
                             </div>
                         </div>
                         
-                        <div class="flex-grow bg-gofun p-5 sm:p-6 md:p-8 rounded-sm border border-haizakura/30 shadow-sm relative overflow-hidden">
-                            <h3 class="text-lg md:text-xl text-sumi font-semibold mb-6">抵達大阪｜心齋橋逛街與觀光船</h3>
+                        <div class="flex-grow bg-gofun p-6 md:p-8 rounded-sm border border-haizakura/30 shadow-sm relative overflow-hidden">
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-shoji opacity-20 pointer-events-none"></div>
                             
-                            <ul class="space-y-6 md:space-y-8 relative z-10">
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">上午</span>
+                            <h3 class="text-xl text-sumi font-semibold mb-6">抵達大阪｜心齋橋逛街與觀光船</h3>
+                            
+                            <ul class="space-y-8 relative z-10">
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">上午</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
                                         <p class="text-sm text-keshizumi leading-relaxed mb-3">06:05 抵達<a href="https://maps.app.goo.gl/iVbq3HVHDTXFhobq8" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">關西機場</a> ➔ 前往<a href="https://maps.app.goo.gl/Vr5Cs9AyfwScNGLZ6" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">本町萬怡酒店</a>寄放行李。</p>
                                     </div>
                                 </li>
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">午餐</span>
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">午餐</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
                                         <p class="text-sm text-keshizumi leading-relaxed mb-3">於心齋橋商圈享用個人鍋物定食。</p>
                                         <div class="flex flex-wrap gap-2">
                                             <a href="https://maps.app.goo.gl/2R3ztyazkCNnkSGk6" target="_blank" class="inline-flex items-center text-xs border border-seiji/40 bg-gofun hover:bg-seiji/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
@@ -267,22 +274,22 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">下午</span>
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">下午</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
-                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">心齋橋筋、道頓堀商圈輕鬆逛街，調節紅眼班機的疲勞。</p>
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
+                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">心齋橋筋與道頓堀商圈輕鬆漫步，調節抵達首日體力。</p>
                                     </div>
                                 </li>
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">傍晚</span>
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">傍晚</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
-                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">使用周遊券搭乘觀光船，與固力果跑跑人打卡。晚餐隨意吃，早點回飯店休息。</p>
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
+                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">使用周遊券搭乘觀光船，並於固力果招牌周邊留影。晚餐後返回飯店休息，儲備翌日精力。</p>
                                         <div class="flex flex-wrap gap-2">
                                             <a href="https://maps.app.goo.gl/nvkc2vb1r7uva5K78" target="_blank" class="inline-flex items-center text-xs border border-fuji/40 bg-gofun hover:bg-fuji/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
                                                 <span class="text-[10px] bg-fuji text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">周遊券</span>道頓堀水上觀光船
@@ -302,24 +309,26 @@
                         <div class="md:w-24 shrink-0 relative z-10 pt-2">
                             <div class="bg-sumi text-shironeri text-xs px-2 py-1 tracking-widest inline-block mb-2 rounded-sm shadow-sm">第二日</div>
                             <div class="text-2xl font-serif text-sumi">10/24</div>
-                            <div class="text-xs text-keshizumi mt-1 mb-3">週六</div>
+                            <div class="text-xs text-keshizumi mt-1 mb-4">週六</div>
                             <div class="inline-flex items-center gap-1.5 border border-kincha/30 bg-kincha/5 px-2 py-1 rounded-sm shadow-sm">
-                                <svg class="w-3.5 h-3.5 text-kincha" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                                <svg class="w-3 h-3 text-kincha" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
                                 <span class="text-[10px] font-medium text-kincha">17:13 日落</span>
                             </div>
                         </div>
                         
-                        <div class="flex-grow bg-gofun p-5 sm:p-6 md:p-8 rounded-sm border border-haizakura/30 shadow-sm relative overflow-hidden">
-                            <h3 class="text-lg md:text-xl text-sumi font-semibold mb-6">神戶異國港灣一日遊｜神戶美食大巡禮</h3>
+                        <div class="flex-grow bg-gofun p-6 md:p-8 rounded-sm border border-haizakura/30 shadow-sm relative overflow-hidden">
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-shoji opacity-20 pointer-events-none"></div>
                             
-                            <ul class="space-y-6 md:space-y-8 relative z-10">
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">上午</span>
+                            <h3 class="text-xl text-sumi font-semibold mb-6">神戶異國港灣一日遊｜神戶美食大巡禮</h3>
+                            
+                            <ul class="space-y-8 relative z-10">
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">上午</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
-                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">抵達<a href="https://maps.app.goo.gl/sFDFA4U5UYHGmFHr5" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">新神戶站</a> ➔ 搭乘纜車上山看風景 ➔ 散步至北野異人館街外圍感受歐風。途中順遊特色星巴克並參拜結緣有名的生田神社。</p>
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
+                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">自<a href="https://maps.app.goo.gl/sFDFA4U5UYHGmFHr5" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">新神戶站</a>搭乘纜車登高觀景，隨後漫步至北野異人館街感受異國風情。途經復古洋房星巴克，並可順道參拜知名結緣地生田神社。</p>
                                         <div class="flex flex-wrap gap-2 mb-3">
                                             <a href="https://maps.google.com/?cid=9393563791333494613" target="_blank" class="inline-flex items-center text-xs border border-fuji/40 bg-gofun hover:bg-fuji/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
                                                 <span class="text-[10px] bg-fuji text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">周遊券</span>布引香草園
@@ -359,13 +368,13 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">下午</span>
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">下午</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
-                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">往海邊方向散步，中途經過南京町中華街可稍微停留。</p>
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
+                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">往港灣方向散步，途經南京町中華街可短暫停留品嚐點心。</p>
                                         <div class="flex flex-wrap gap-2">
                                             <a href="https://maps.app.goo.gl/87nyHWKvFeAsPhct8" target="_blank" class="inline-flex items-center text-xs border border-kincha/40 bg-gofun hover:bg-kincha/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
                                                 <span class="text-[10px] bg-kincha text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">景點</span>南京町中華街
@@ -376,13 +385,13 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">傍晚</span>
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">傍晚</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
-                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">抵達美利堅公園。傍晚在 Harborland 廣場欣賞神戶港絕美夜景後返回大阪。</p>
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
+                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">傍晚抵達美利堅公園與 Harborland 廣場，欣賞神戶港灣夜景後返回大阪。</p>
                                         <div class="flex flex-wrap gap-2">
                                             <a href="https://maps.app.goo.gl/YReTk2HjEMmJWXjN7" target="_blank" class="inline-flex items-center text-xs border border-kincha/40 bg-gofun hover:bg-kincha/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
                                                 <span class="text-[10px] bg-kincha text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">地標</span>美利堅公園
@@ -408,24 +417,26 @@
                         <div class="md:w-24 shrink-0 relative z-10 pt-2">
                             <div class="bg-sumi text-shironeri text-xs px-2 py-1 tracking-widest inline-block mb-2 rounded-sm shadow-sm">第三日</div>
                             <div class="text-2xl font-serif text-sumi">10/25</div>
-                            <div class="text-xs text-keshizumi mt-1 mb-3">週日</div>
+                            <div class="text-xs text-keshizumi mt-1 mb-4">週日</div>
                             <div class="inline-flex items-center gap-1.5 border border-kincha/30 bg-kincha/5 px-2 py-1 rounded-sm shadow-sm">
-                                <svg class="w-3.5 h-3.5 text-kincha" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                                <svg class="w-3 h-3 text-kincha" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
                                 <span class="text-[10px] font-medium text-kincha">17:11 日落</span>
                             </div>
                         </div>
                         
-                        <div class="flex-grow bg-gofun p-5 sm:p-6 md:p-8 rounded-sm border border-haizakura/30 shadow-sm relative overflow-hidden">
-                            <h3 class="text-lg md:text-xl text-sumi font-semibold mb-6">大阪市區｜頂級海鮮與無敵日落</h3>
+                        <div class="flex-grow bg-gofun p-6 md:p-8 rounded-sm border border-haizakura/30 shadow-sm relative overflow-hidden">
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-shoji opacity-20 pointer-events-none"></div>
                             
-                            <ul class="space-y-6 md:space-y-8 relative z-10">
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">上午</span>
+                            <h3 class="text-xl text-sumi font-semibold mb-6">大阪市區｜頂級海鮮與無敵日落</h3>
+                            
+                            <ul class="space-y-8 relative z-10">
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">上午</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
-                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">前往<a href="https://maps.app.goo.gl/d9jdpDNHzZfbDCG88" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">黑門市場</a>享用早午餐。以頂級海鮮開啟一天的行程。</p>
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
+                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">前往<a href="https://maps.app.goo.gl/d9jdpDNHzZfbDCG88" target="_blank" class="hover:text-kincha underline decoration-haizakura/80 underline-offset-4 hover:decoration-kincha transition-all">黑門市場</a>享用頂級海鮮早午餐。</p>
                                         <div class="flex flex-wrap gap-2">
                                             <a href="https://maps.app.goo.gl/UshHpxFarP9kY2mx7" target="_blank" class="inline-flex items-center text-xs border border-seiji/40 bg-gofun hover:bg-seiji/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
                                                 <span class="text-[10px] bg-seiji text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">現切黑鮪魚</span>まぐろや黒銀
@@ -436,13 +447,13 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">中午</span>
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">中午</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
-                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">前往新世界商圈欣賞通天閣，並順路朝聖幽默的隱藏地標。午餐於此區享用串炸與海鮮。</p>
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
+                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">前往新世界商圈欣賞通天閣與周邊特色地標。午餐可於此區享用經典串炸。</p>
                                         <div class="flex flex-wrap gap-2 mb-3">
                                             <a href="https://maps.app.goo.gl/EvRb9nTxrZ5R4mS36" target="_blank" class="inline-flex items-center text-xs border border-kincha/40 bg-gofun hover:bg-kincha/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
                                                 <span class="text-[10px] bg-kincha text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">地標</span>通天閣
@@ -461,13 +472,13 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">下午</span>
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">下午</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
-                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">前往難波八阪神社，拍攝震撼的巨型獅子頭。</p>
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
+                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">前往難波八阪神社，拍攝巨型獅子殿。</p>
                                         <div class="flex flex-wrap gap-2">
                                             <a href="https://maps.app.goo.gl/Zeb8jXZXDrsVPfkQ8" target="_blank" class="inline-flex items-center text-xs border border-kincha/40 bg-gofun hover:bg-kincha/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
                                                 <span class="text-[10px] bg-kincha text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">景點</span>難波八阪神社
@@ -475,12 +486,12 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">傍晚</span>
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">傍晚</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
                                         <p class="text-sm text-keshizumi leading-relaxed mb-3">登上阿倍野展望台欣賞絕美日落與大阪夜景。</p>
                                         <div class="flex flex-wrap gap-2">
                                             <a href="https://maps.app.goo.gl/wFyPT6m52NTbkS66A" target="_blank" class="inline-flex items-center text-xs border border-fuji/40 bg-gofun hover:bg-fuji/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
@@ -494,31 +505,33 @@
                     </div>
                 </div>
 
-                <!-- Day 4 (USJ) -->
+                <!-- Day 4 (USJ Refactored) -->
                 <div id="day4" class="relative scroll-mt-24">
                     <div class="absolute hidden md:block left-24 top-14 bottom-0 w-px bg-haizakura/50"></div>
                     <div class="flex flex-col md:flex-row gap-4 md:gap-12">
                         <div class="md:w-24 shrink-0 relative z-10 pt-2">
                             <div class="bg-sumi text-shironeri text-xs px-2 py-1 tracking-widest inline-block mb-2 rounded-sm shadow-sm">第四日</div>
                             <div class="text-2xl font-serif text-sumi">10/26</div>
-                            <div class="text-xs text-keshizumi mt-1 mb-3">週一</div>
+                            <div class="text-xs text-keshizumi mt-1 mb-4">週一</div>
                             <div class="inline-flex items-center gap-1.5 border border-kincha/30 bg-kincha/5 px-2 py-1 rounded-sm shadow-sm">
-                                <svg class="w-3.5 h-3.5 text-kincha" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                                <svg class="w-3 h-3 text-kincha" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
                                 <span class="text-[10px] font-medium text-kincha">17:10 日落</span>
                             </div>
                         </div>
                         
-                        <div class="flex-grow bg-gofun p-5 sm:p-6 md:p-8 rounded-sm border border-haizakura/30 shadow-sm relative overflow-hidden flex flex-col">
-                            <h3 class="text-lg md:text-xl text-sumi font-semibold mb-6 relative z-10">環球影城｜USJ 全日熱血遊</h3>
+                        <div class="flex-grow bg-gofun p-6 md:p-8 rounded-sm border border-haizakura/30 shadow-sm relative overflow-hidden flex flex-col">
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-shoji opacity-20 pointer-events-none"></div>
                             
-                            <ul class="space-y-6 md:space-y-8 relative z-10 mb-8">
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">全天</span>
+                            <h3 class="text-xl text-sumi font-semibold mb-6 relative z-10">環球影城｜USJ 全日熱血遊</h3>
+                            
+                            <ul class="space-y-8 relative z-10 mb-8">
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">全天</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
-                                        <p class="text-sm text-keshizumi leading-relaxed mb-4">從本町出發前往環球城站。全天鎖定超級任天堂世界與哈利波特魔法世界，在園區盡情暢玩至閉園。</p>
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
+                                        <p class="text-sm text-keshizumi leading-relaxed mb-4">自本町出發前往環球城站。全日重心鎖定超級任天堂世界與哈利波特魔法世界，完整體驗園區設施。</p>
                                         <div class="flex flex-wrap gap-2">
                                             <a href="https://maps.app.goo.gl/voBHhB2ZJcUXku1T6" target="_blank" class="inline-flex items-center text-xs border border-kincha/40 bg-gofun hover:bg-kincha/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
                                                 <span class="text-[10px] bg-kincha text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">樂園</span>日本環球影城
@@ -540,27 +553,24 @@
                                     
                                     <div class="p-4 md:p-6 border-t border-haizakura/40 bg-gofun text-sm">
                                         
-                                        <!-- Legend -->
-                                        <div class="mb-6 flex flex-wrap gap-4 border-b border-haizakura/40 pb-4">
-                                            <span class="inline-flex items-center text-xs text-keshizumi"><span class="w-1.5 h-1.5 rounded-full bg-seiji mr-2"></span>適合所有人 (大眾)</span>
-                                            <span class="inline-flex items-center text-xs text-keshizumi"><span class="w-1.5 h-1.5 rounded-full bg-enji mr-2"></span>刺激驚險 (長輩避險)</span>
-                                            <span class="inline-flex items-center text-xs text-keshizumi"><span class="text-kincha mr-1 font-bold">✦</span>單人優先 (Single Rider)</span>
+                                        <!-- Header Tags / Legend -->
+                                        <div class="mb-8 pb-4 border-b border-haizakura/40 flex flex-wrap gap-4">
+                                            <span class="inline-flex items-center text-xs text-keshizumi"><span class="w-1.5 h-1.5 rounded-full bg-seiji mr-2"></span>溫和設施</span>
+                                            <span class="inline-flex items-center text-xs text-keshizumi"><span class="w-1.5 h-1.5 rounded-full bg-enji mr-2"></span>刺激驚險</span>
+                                            <span class="inline-flex items-center text-xs text-keshizumi"><span class="text-kincha mr-1 font-bold">✦</span>單人優先通道</span>
                                         </div>
-                                        
+
                                         <!-- Phase 1 -->
                                         <div class="mb-8">
                                             <h4 class="font-bold text-sumi mb-4 border-b border-haizakura/50 pb-2">壹｜開園黃金直衝</h4>
                                             <ul class="space-y-3">
                                                 <li class="flex items-start gap-2">
-                                                    <div class="w-1 h-4 bg-kincha/60 mt-0.5 rounded-sm shrink-0"></div>
-                                                    <div class="text-keshizumi leading-relaxed">
-                                                        <strong>手機 App 抽籤：</strong>抽「超級任天堂世界™ (瑪利歐)」整理券 ＋「惡靈古堡」號碼券。<br/>
-                                                        <span class="text-xs opacity-80 mt-1 block">（視抽到時間安插後續行程）</span>
-                                                    </div>
+                                                    <span class="w-1.5 h-1.5 rounded-full bg-kincha mt-1.5 shrink-0"></span>
+                                                    <span class="text-keshizumi leading-relaxed"><strong>手機 App 抽籤：</strong>抽取「超級任天堂世界™」整理券與「惡靈古堡」號碼券。<span class="text-xs opacity-70 text-sumi ml-1">（依票券時間彈性調整後續動線）</span></span>
                                                 </li>
                                                 <li class="flex items-start gap-2">
-                                                    <div class="w-1 h-4 bg-kincha/60 mt-0.5 rounded-sm shrink-0"></div>
-                                                    <div class="text-keshizumi leading-relaxed"><strong>優先攻略園區：</strong>立刻走到【哈利波特魔法世界】。</div>
+                                                    <span class="w-1.5 h-1.5 rounded-full bg-kincha mt-1.5 shrink-0"></span>
+                                                    <span class="text-keshizumi leading-relaxed"><strong>首要目標：</strong>前往【哈利波特魔法世界】。</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -571,11 +581,11 @@
                                             
                                             <!-- Sub-area 1 -->
                                             <div class="mb-5">
-                                                <div class="bg-haizakura/30 text-sumi font-bold px-2 py-1 rounded-sm text-xs inline-block mb-3 border border-haizakura/50">哈利波特魔法世界™ (建議早上先玩)</div>
+                                                <div class="bg-haizakura/30 text-sumi font-bold px-2 py-1 rounded-sm text-xs inline-block mb-3 border border-haizakura/50">哈利波特魔法世界™ (建議晨間前往)</div>
                                                 <ul class="space-y-2.5">
                                                     <li class="flex items-start gap-2">
                                                         <span class="w-1.5 h-1.5 rounded-full bg-enji mt-1.5 shrink-0"></span>
-                                                        <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">哈利波特禁忌之旅™</span> <span class="text-kincha text-xs font-bold mx-1">✦</span></div>
+                                                        <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">哈利波特禁忌之旅™</span> <span class="text-kincha text-xs">✦</span></div>
                                                     </li>
                                                     <li class="flex items-start gap-2">
                                                         <span class="w-1.5 h-1.5 rounded-full bg-seiji mt-1.5 shrink-0"></span>
@@ -590,11 +600,11 @@
                                                 <ul class="space-y-2.5">
                                                     <li class="flex items-start gap-2">
                                                         <span class="w-1.5 h-1.5 rounded-full bg-seiji mt-1.5 shrink-0"></span>
-                                                        <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">瑪利歐賽車～庫巴的挑戰書～™</span> <span class="text-kincha text-xs font-bold mx-1">✦</span></div>
+                                                        <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">瑪利歐賽車～庫巴的挑戰書～™</span> <span class="text-kincha text-xs">✦</span></div>
                                                     </li>
                                                     <li class="flex items-start gap-2">
                                                         <span class="w-1.5 h-1.5 rounded-full bg-enji mt-1.5 shrink-0"></span>
-                                                        <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">咚奇剛的瘋狂礦車™</span> <span class="text-kincha text-xs font-bold mx-1">✦</span></div>
+                                                        <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">咚奇剛的瘋狂礦車™</span> <span class="text-kincha text-xs">✦</span></div>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -613,7 +623,7 @@
                                                     </li>
                                                     <li class="flex items-start gap-2">
                                                         <span class="w-1.5 h-1.5 rounded-full bg-enji mt-1.5 shrink-0"></span>
-                                                        <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">好萊塢美夢‧乘車遊 (正向)</span> <span class="text-kincha text-xs font-bold mx-1">✦</span></div>
+                                                        <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">好萊塢美夢‧乘車遊 (正向)</span> <span class="text-kincha text-xs">✦</span></div>
                                                     </li>
                                                     <li class="flex items-start gap-2">
                                                         <span class="w-1.5 h-1.5 rounded-full bg-enji mt-1.5 shrink-0"></span>
@@ -636,7 +646,7 @@
                                                     </li>
                                                     <li class="flex items-start gap-2">
                                                         <span class="w-1.5 h-1.5 rounded-full bg-enji mt-1.5 shrink-0"></span>
-                                                        <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">飛天翼龍</span> <span class="text-kincha text-xs font-bold mx-1">✦</span></div>
+                                                        <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">飛天翼龍</span> <span class="text-kincha text-xs">✦</span></div>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -644,36 +654,36 @@
 
                                         <!-- Phase 3 -->
                                         <div class="mb-8">
-                                            <h4 class="font-bold text-sumi mb-4 border-b border-haizakura/50 pb-2">參｜萬聖驚魂夜 (18:00 後全面解封)</h4>
-                                            <p class="text-xs text-keshizumi mb-4">晚上 18:00 一到，紐約區、好萊塢區路上全是殭屍。同行家人可以一起在大馬路上同樂！</p>
+                                            <h4 class="font-bold text-sumi mb-4 border-b border-haizakura/50 pb-2">參｜萬聖驚魂夜 (18:00 起)</h4>
+                                            <p class="text-xs text-keshizumi mb-4">18:00 起紐約區與好萊塢區將有街頭殭屍遊行，可於此時段體驗萬聖節限定氛圍。</p>
                                             <ul class="space-y-2.5">
                                                 <li class="flex items-start gap-2">
                                                     <span class="w-1.5 h-1.5 rounded-full bg-seiji mt-1.5 shrink-0"></span>
-                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">僵屍群舞 (Zombie de Dance)</span>：在路邊聽 Ado 音樂看跳舞。</div>
+                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">僵屍群舞 (Zombie de Dance)</span>：結合 Ado 樂曲的街頭突發舞蹈表演。</div>
                                                 </li>
                                                 <li class="flex items-start gap-2">
                                                     <span class="w-1.5 h-1.5 rounded-full bg-seiji mt-1.5 shrink-0"></span>
-                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">萬聖驚魂夜學院～尖叫的15年～</span>：看廣場舞台秀。</div>
+                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">萬聖驚魂夜學院～尖叫的15年～</span>：萬聖節限定廣場舞台大秀。</div>
                                                 </li>
                                                 <li class="flex items-start gap-2">
                                                     <span class="w-1.5 h-1.5 rounded-full bg-enji mt-1.5 shrink-0"></span>
-                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">大白鯊～紅色警報～</span> <span class="text-kincha text-xs font-bold mx-1">✦</span></div>
+                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">大白鯊～紅色警報～</span> <span class="text-kincha text-xs">✦</span></div>
                                                 </li>
                                                 <li class="flex items-start gap-2">
                                                     <span class="w-1.5 h-1.5 rounded-full bg-enji mt-1.5 shrink-0"></span>
-                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">侏羅紀公園‧乘船遊～在黑暗中～</span> <span class="text-kincha text-xs font-bold mx-1">✦</span></div>
+                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">侏羅紀公園‧乘船遊～在黑暗中～</span> <span class="text-kincha text-xs">✦</span></div>
                                                 </li>
                                                 <li class="flex items-start gap-2">
                                                     <span class="w-1.5 h-1.5 rounded-full bg-enji mt-1.5 shrink-0"></span>
-                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">《Resident Evil Requiem》深淵絕境</span></div>
+                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">《Resident Evil Requiem》深淵絕境</span>：需依號碼券時間入場。</div>
                                                 </li>
                                                 <li class="flex items-start gap-2">
                                                     <span class="w-1.5 h-1.5 rounded-full bg-enji mt-1.5 shrink-0"></span>
-                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">恐怖工廠～絕望的殭屍之旅～</span></div>
+                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">恐怖工廠～絕望的殭屍之旅～</span>：步行式恐怖迷宮。</div>
                                                 </li>
                                                 <li class="flex items-start gap-2">
                                                     <span class="w-1.5 h-1.5 rounded-full bg-enji mt-1.5 shrink-0"></span>
-                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">貞子的詛咒～黑暗驚悚乘車遊～</span> <span class="text-kincha text-xs font-bold mx-1">✦</span></div>
+                                                    <div class="text-keshizumi leading-relaxed"><span class="font-medium text-sumi">貞子的詛咒～黑暗驚悚乘車遊～</span> <span class="text-kincha text-xs">✦</span>：室內驚悚遊樂設施。</div>
                                                 </li>
                                             </ul>
                                         </div>
@@ -684,14 +694,15 @@
                                             <ul class="space-y-2.5">
                                                 <li class="flex items-start gap-2">
                                                     <span class="w-1.5 h-1.5 rounded-full bg-seiji mt-1.5 shrink-0"></span>
-                                                    <div class="text-keshizumi leading-relaxed"><strong>回歸哈利波特拍夜景：</strong>這時大家都跑去看殭屍了，趁機拍點燈的霍格華茲城堡，超美！</div>
+                                                    <div class="text-keshizumi leading-relaxed"><strong>哈利波特魔法世界夜景：</strong>利用人潮聚集於萬聖節活動區域的時段，拍攝霍格華茲城堡夜間點燈。</div>
                                                 </li>
                                                 <li class="flex items-start gap-2">
                                                     <span class="w-1.5 h-1.5 rounded-full bg-seiji mt-1.5 shrink-0"></span>
-                                                    <div class="text-keshizumi leading-relaxed"><strong>壓軸重現殭屍群舞 (21:50)：</strong>走到大門口附近，遠遠看最後一場殭屍秀，完美出園。</div>
+                                                    <div class="text-keshizumi leading-relaxed"><strong>壓軸殭屍群舞 (21:50)：</strong>於大門周邊觀賞閉園前最終場演出，結束全日行程。</div>
                                                 </li>
                                             </ul>
                                         </div>
+
                                     </div>
                                 </details>
                             </div>
@@ -705,33 +716,35 @@
                         <div class="md:w-24 shrink-0 relative z-10 pt-2">
                             <div class="bg-sumi text-shironeri text-xs px-2 py-1 tracking-widest inline-block mb-2 rounded-sm shadow-sm">第五日</div>
                             <div class="text-2xl font-serif text-sumi">10/27</div>
-                            <div class="text-xs text-keshizumi mt-1 mb-3">週二</div>
+                            <div class="text-xs text-keshizumi mt-1 mb-4">週二</div>
                             <div class="inline-flex items-center gap-1.5 border border-kincha/30 bg-kincha/5 px-2 py-1 rounded-sm shadow-sm">
-                                <svg class="w-3.5 h-3.5 text-kincha" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                                <svg class="w-3 h-3 text-kincha" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
                                 <span class="text-[10px] font-medium text-kincha">17:09 日落</span>
                             </div>
                         </div>
                         
-                        <div class="flex-grow bg-gofun p-5 sm:p-6 md:p-8 rounded-sm border border-haizakura/30 shadow-sm relative overflow-hidden">
-                            <h3 class="text-lg md:text-xl text-sumi font-semibold mb-6 relative z-10">市區最後採買與返台</h3>
+                        <div class="flex-grow bg-gofun p-6 md:p-8 rounded-sm border border-haizakura/30 shadow-sm relative overflow-hidden">
+                            <div class="absolute top-0 right-0 w-24 h-24 bg-shoji opacity-20 pointer-events-none"></div>
                             
-                            <ul class="space-y-6 md:space-y-8 relative z-10">
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">白天</span>
+                            <h3 class="text-xl text-sumi font-semibold mb-6 relative z-10">市區最後採買與返台</h3>
+                            
+                            <ul class="space-y-8 relative z-10">
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">白天</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
                                         <p class="text-sm text-keshizumi leading-relaxed mb-3">飯店退房並寄放行李。於本町、心齋橋或難波商圈進行最後的藥妝與伴手禮採買。</p>
                                     </div>
                                 </li>
-                                <li class="flex flex-col md:flex-row items-start">
-                                    <div class="flex items-center w-full md:w-16 shrink-0 mb-3 md:mb-0 md:mt-0.5">
-                                        <span class="font-serif text-sumi text-lg md:text-base lg:text-lg mr-4 md:mr-0">晚上</span>
+                                <li class="flex flex-col md:flex-row md:items-start gap-2 md:gap-0">
+                                    <div class="flex items-center gap-4 md:w-20 shrink-0 md:mt-0.5">
+                                        <span class="font-serif text-sumi text-lg">晚上</span>
                                         <div class="h-px bg-haizakura/50 flex-grow md:hidden"></div>
                                     </div>
-                                    <div class="md:pl-5 md:border-l border-sumi/10 w-full">
-                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">拿行李搭車，約 20:00 前抵達關西機場，準備搭乘 23:10 班機返台。</p>
+                                    <div class="md:pl-5 md:border-l border-haizakura/50 w-full">
+                                        <p class="text-sm text-keshizumi leading-relaxed mb-3">領取行李並前往機場，建議 20:00 前抵達關西國際機場，準備搭乘 23:10 班機返台。</p>
                                         <div class="flex flex-wrap gap-2">
                                             <a href="https://maps.app.goo.gl/iVbq3HVHDTXFhobq8" target="_blank" class="inline-flex items-center text-xs border border-kincha/40 bg-gofun hover:bg-kincha/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
                                                 <span class="text-[10px] bg-kincha text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">機場</span>關西國際機場 (KIX)
@@ -753,7 +766,9 @@
                 <h2 class="text-2xl text-sumi tracking-widest font-light">飯店周邊</h2>
             </div>
 
-            <div class="bg-gofun p-5 sm:p-6 md:p-10 rounded-sm border border-haizakura/40 shadow-sm relative overflow-hidden">
+            <div class="bg-gofun p-6 md:p-10 rounded-sm border border-haizakura/40 shadow-sm relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-shoji opacity-20 pointer-events-none"></div>
+                
                 <div class="space-y-10 relative z-10">
                     <!-- 早餐 -->
                     <div>
@@ -761,7 +776,7 @@
                             <span class="w-1.5 h-1.5 bg-seiji rounded-full"></span>
                             晨間・早餐推薦
                         </h3>
-                        <div class="pl-4 border-l border-haizakura/50">
+                        <div class="pl-3 border-l border-haizakura/50">
                             <div class="mb-4 last:mb-0">
                                 <div class="flex flex-wrap items-center gap-2 mb-2">
                                     <a href="https://maps.app.goo.gl/PgYEEGJWuUJA5RdZ6" target="_blank" class="inline-flex items-center text-xs border border-seiji/40 bg-gofun hover:bg-seiji/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
@@ -769,7 +784,7 @@
                                     </a>
                                     <span class="text-xs text-kincha border border-kincha/30 px-1.5 py-0.5 rounded-sm">週日公休</span>
                                 </div>
-                                <p class="text-sm text-keshizumi leading-relaxed">大阪神級讚岐烏龍麵，早上 7 點營業。傳統「立食」體驗，高湯極神、麵條 Q 彈，適合早晨享用日式熱湯。</p>
+                                <p class="text-sm text-keshizumi leading-relaxed">大阪知名讚岐烏龍麵，清晨 7 點即營業。採傳統「立食」體驗，高湯溫潤、麵條 Q 彈，適合作為晨間的熱湯選擇。</p>
                             </div>
                         </div>
                     </div>
@@ -780,14 +795,14 @@
                             <span class="w-1.5 h-1.5 bg-seiji rounded-full"></span>
                             正餐・午晚餐佳餚
                         </h3>
-                        <div class="pl-4 border-l border-haizakura/50 space-y-6">
+                        <div class="pl-3 border-l border-haizakura/50 space-y-6">
                             <div>
                                 <div class="flex flex-wrap items-center gap-2 mb-2">
                                     <a href="https://maps.app.goo.gl/BQPToztt5kTHnStQ6" target="_blank" class="inline-flex items-center text-xs border border-seiji/40 bg-gofun hover:bg-seiji/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
                                         <span class="text-[10px] bg-seiji text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">居酒屋</span>牡蠣と海鮮にほんいち 堺筋本町店
                                     </a>
                                 </div>
-                                <p class="text-sm text-keshizumi leading-relaxed">主打華麗浮誇的海鮮料理（如生魚片階梯盛合、螃蟹甲羅燒），非常適合喜愛海鮮的貴賓安排於晚餐享用。</p>
+                                <p class="text-sm text-keshizumi leading-relaxed">主打視覺豐富的海鮮料理（如生魚片盛合、螃蟹甲羅燒），適合安排為精緻的晚間正餐。</p>
                             </div>
                             
                             <div>
@@ -822,35 +837,38 @@
                             <span class="w-1.5 h-1.5 bg-seiji rounded-full"></span>
                             夜點・宵夜與甜點
                         </h3>
-                        <div class="pl-4 border-l border-haizakura/50">
+                        <div class="pl-3 border-l border-haizakura/50">
                             <div class="mb-4 last:mb-0">
                                 <div class="flex flex-wrap items-center gap-2 mb-2">
                                     <a href="https://maps.app.goo.gl/KYAHg6W2a3yiH5rJ9" target="_blank" class="inline-flex items-center text-xs border border-seiji/40 bg-gofun hover:bg-seiji/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
                                         <span class="text-[10px] bg-seiji text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">起司塔專賣</span>BOMBOMY 本町店
                                     </a>
                                 </div>
-                                <p class="text-sm text-keshizumi leading-relaxed">超人氣起司塔專賣店（備有原味、抹茶、草莓等多種口味）。非常推薦外帶回飯店，作為晚間宵夜或隔日的早晨點心。</p>
+                                <p class="text-sm text-keshizumi leading-relaxed">人氣起司塔專賣店（提供原味、抹茶、草莓等多種口味）。推薦外帶作為夜間小點或翌日晨間享用。</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- 超商機能 -->
+                    <!-- 便利商店 -->
                     <div>
                         <h3 class="text-lg font-serif text-sumi mb-5 flex items-center gap-2">
                             <span class="w-1.5 h-1.5 bg-kincha rounded-full"></span>
                             便利・超商機能
                         </h3>
-                        <div class="pl-4 border-l border-haizakura/50">
-                            <div class="flex flex-wrap gap-2">
-                                <a href="https://maps.app.goo.gl/vR3GN8LrBqWgNMNd7" target="_blank" class="inline-flex items-center text-xs border border-kincha/40 bg-gofun hover:bg-kincha/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
-                                    <span class="text-[10px] bg-kincha text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">超商</span>7-Eleven
-                                </a>
-                                <a href="https://maps.app.goo.gl/MtpJXnZB1ScHneG56" target="_blank" class="inline-flex items-center text-xs border border-kincha/40 bg-gofun hover:bg-kincha/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
-                                    <span class="text-[10px] bg-kincha text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">超商</span>Lawson
-                                </a>
-                                <a href="https://maps.app.goo.gl/3qeSeF7vxX11utNE9" target="_blank" class="inline-flex items-center text-xs border border-kincha/40 bg-gofun hover:bg-kincha/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
-                                    <span class="text-[10px] bg-kincha text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">超商</span>FamilyMart
-                                </a>
+                        <div class="pl-3 border-l border-haizakura/50">
+                            <div class="mb-4 last:mb-0">
+                                <div class="flex flex-wrap items-center gap-2 mb-2">
+                                    <a href="https://maps.app.goo.gl/vR3GN8LrBqWgNMNd7" target="_blank" class="inline-flex items-center text-xs border border-kincha/40 bg-gofun hover:bg-kincha/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
+                                        <span class="text-[10px] bg-kincha text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">超商</span>7-Eleven
+                                    </a>
+                                    <a href="https://maps.app.goo.gl/MtpJXnZB1ScHneG56" target="_blank" class="inline-flex items-center text-xs border border-kincha/40 bg-gofun hover:bg-kincha/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
+                                        <span class="text-[10px] bg-kincha text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">超商</span>Lawson
+                                    </a>
+                                    <a href="https://maps.app.goo.gl/3qeSeF7vxX11utNE9" target="_blank" class="inline-flex items-center text-xs border border-kincha/40 bg-gofun hover:bg-kincha/10 text-sumi px-2 py-1 shadow-sm rounded-sm transition-all font-medium">
+                                        <span class="text-[10px] bg-kincha text-shironeri px-1.5 py-0.5 mr-1.5 rounded-sm">超商</span>FamilyMart
+                                    </a>
+                                </div>
+                                <p class="text-sm text-keshizumi leading-relaxed">飯店周邊步行即可抵達的三大便利商店，方便隨時採買飲料、零食或生活用品。</p>
                             </div>
                         </div>
                     </div>
